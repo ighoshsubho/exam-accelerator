@@ -72,6 +72,8 @@ print(classification_report(y_test, y_pred))
 print('Confusion Matrix:')
 print(confusion_matrix(y_test, y_pred))
 
+print("hi")
+
 # Hyperparameter tuning
 parameter_space = {
     'hidden_layer_sizes': [(100, 50), (50, 100), (100, 100), (200, 100), (200, 200)],
